@@ -92,3 +92,7 @@ The game is displayed using HTML elements where each piece is represented in a t
 3. The valid target squares for that piece are highlighted.
 4. The player clicks on a target square to move the piece.
 5. The game state is updated, and the turn alternates between the two players.
+
+### Inspiration
+
+this was inspired frpm Iavor S. Diatchki
