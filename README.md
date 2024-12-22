@@ -95,4 +95,4 @@ The game is displayed using HTML elements where each piece is represented in a t
 
 ### Inspiration
 
-this was inspired frpm Iavor S. Diatchki
+this was inspired from Iavor S. Diatchki
