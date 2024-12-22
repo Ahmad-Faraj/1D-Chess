@@ -1,0 +1,31 @@
+body {
+  background-color: #0b0b0b;
+  margin-left:  250px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+div { margin: 5px; }
+
+.board { font-size: 32px; color: #000; }
+
+.board td {
+  min-width: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+}
+
+.w { background-color: rgb(150, 117, 66); border: 0.5px solid rgb(210, 138, 80); }
+.b { background-color: bisque; border: 0.5px solid rgb(255, 255, 255); }
+.clickable { cursor: pointer; }
+.source { border: 1px solid green; }
+.target { cursor: pointer; border: 1px solid cyan; }
+.danger { border: 1px solid red;}
+
+.Ahmed_Faraj {
+  margin-left: 310px; 
+  color: rgb(0, 255, 0);
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 220px;
+}
