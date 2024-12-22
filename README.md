@@ -2,6 +2,10 @@
 
 This document explains the functionality and structure of a simple 1D chess game implemented in JavaScript. The game allows two players to move chess pieces in a linear arrangement.
 
+### Game Link
+
+https://ahmad-faraj.github.io/1D-Chess/
+
 ## Game Overview
 
 The game board is represented as a 1D array of length 16, where each element corresponds to a square on the board. The chess pieces are represented by integers, and each piece has a specific movement pattern defined in the game logic.
