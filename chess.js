@@ -15,7 +15,7 @@ let pieces = [
 ];
 
 let moves = [king, queen, rook, bishop, knight, pawn];
-let pieceNum = 6;
+let pieceNum = moves.length();
 
 let initialState = {
   turn: 0,
