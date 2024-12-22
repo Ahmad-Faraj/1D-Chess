@@ -55,7 +55,7 @@ Each type of chess piece has a corresponding movement function. The `canMove` fu
 - **Bishop (♗, ♝)**: Can move in the squares of its color, but cannot jump over other pieces.
   - `bishop(state, from, to)`
 
-- **Knight (♘, ♞)**: Can move two or three squares in either direction.
+- **Knight (♘, ♞)**: Can jump two or three squares in either direction.
   - `knight(state, from, to)`
 
 - **Pawn (♙, ♟)**: Can move one square forward, or two squares forward on its first move. It cannot move backward.
