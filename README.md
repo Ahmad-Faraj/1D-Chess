@@ -49,13 +49,13 @@ Each type of chess piece has a corresponding movement function. The `canMove` fu
 - **Queen (♕, ♛)**: Can move like both a rook and a bishop.
   - `queen(state, from, to)`
 
-- **Rook (♖, ♜)**: Can move horizontally or vertically any number of squares, but cannot jump over other pieces.
+- **Rook (♖, ♜)**: Can move horizontally any number of squares, but cannot jump over other pieces.
   - `rook(state, from, to)`
 
-- **Bishop (♗, ♝)**: Can move diagonally any number of squares, but cannot jump over other pieces.
+- **Bishop (♗, ♝)**: Can move in the squares of its color, but cannot jump over other pieces.
   - `bishop(state, from, to)`
 
-- **Knight (♘, ♞)**: Can move in an L-shape (two squares in one direction and one square perpendicular).
+- **Knight (♘, ♞)**: Can move two or three squares in either direction.
   - `knight(state, from, to)`
 
 - **Pawn (♙, ♟)**: Can move one square forward, or two squares forward on its first move. It cannot move backward.
